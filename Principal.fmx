@@ -1,0 +1,1873 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = '..:: Cassino Predition'
+  ClientHeight = 548
+  ClientWidth = 858
+  Position = DesktopCenter
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout_Esquerdo: TLayout
+    Align = Left
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Position.X = 5.000000000000000000
+    Position.Y = 3.000000000000000000
+    Size.Width = 505.000000000000000000
+    Size.Height = 542.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Size.Width = 505.000000000000000000
+      Size.Height = 542.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 10.003441673790300000
+        end
+        item
+          Value = 89.996558326209690000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = Rct0
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = Rct1
+          Row = 1
+        end
+        item
+          Column = 0
+          Control = Rct2
+          Row = 2
+        end
+        item
+          Column = 0
+          Control = Rct3
+          Row = 3
+        end
+        item
+          Column = 0
+          Control = Rct4
+          Row = 4
+        end
+        item
+          Column = 0
+          Control = Rct5
+          Row = 5
+        end
+        item
+          Column = 0
+          Control = Rct6
+          Row = 6
+        end
+        item
+          Column = 0
+          Control = Rct7
+          Row = 7
+        end
+        item
+          Column = 0
+          Control = Rct8
+          Row = 8
+        end
+        item
+          Column = 0
+          Control = Rct9
+          Row = 9
+        end
+        item
+          Column = 0
+          Control = Rct10
+          Row = 10
+        end
+        item
+          Column = 0
+          Control = Rct11
+          Row = 11
+        end
+        item
+          Column = 0
+          Control = Rct12
+          Row = 12
+        end
+        item
+          Column = 0
+          Control = Rct13
+          Row = 13
+        end
+        item
+          Column = 0
+          Control = Rct14
+          Row = 14
+        end
+        item
+          Column = 0
+          Control = Rct15
+          Row = 15
+        end
+        item
+          Column = 0
+          Control = Rct16
+          Row = 16
+        end
+        item
+          Column = 0
+          Control = Rct17
+          Row = 17
+        end
+        item
+          Column = 0
+          Control = Rct18
+          Row = 18
+        end
+        item
+          Column = 0
+          Control = Rct19
+          Row = 19
+        end
+        item
+          Column = 0
+          Control = Rct20
+          Row = 20
+        end
+        item
+          Column = 0
+          Control = Rct21
+          Row = 21
+        end
+        item
+          Column = 0
+          Control = Rct22
+          Row = 22
+        end
+        item
+          Column = 0
+          Control = Rct23
+          Row = 23
+        end
+        item
+          Column = 0
+          Control = Rct24
+          Row = 24
+        end
+        item
+          Column = 0
+          Control = Rct25
+          Row = 25
+        end
+        item
+          Column = 0
+          Control = Rct26
+          Row = 26
+        end
+        item
+          Column = 0
+          Control = Rct27
+          Row = 27
+        end
+        item
+          Column = 0
+          Control = Rct28
+          Row = 28
+        end
+        item
+          Column = 0
+          Control = Rct29
+          Row = 29
+        end
+        item
+          Column = 0
+          Control = Rct30
+          Row = 30
+        end
+        item
+          Column = 0
+          Control = Rct31
+          Row = 31
+        end
+        item
+          Column = 0
+          Control = Rct32
+          Row = 32
+        end
+        item
+          Column = 0
+          Control = Rct33
+          Row = 33
+        end
+        item
+          Column = 0
+          Control = Rct34
+          Row = 34
+        end
+        item
+          Column = 0
+          Control = Rct35
+          Row = 35
+        end
+        item
+          Column = 0
+          Control = Rct36
+          Row = 36
+        end
+        item
+          Column = 1
+          Control = Barra0
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = Barra1
+          Row = 1
+        end
+        item
+          Column = 1
+          Control = Barra2
+          Row = 2
+        end
+        item
+          Column = 1
+          Control = Barra3
+          Row = 3
+        end
+        item
+          Column = 1
+          Control = Barra4
+          Row = 4
+        end
+        item
+          Column = 1
+          Control = Barra5
+          Row = 5
+        end
+        item
+          Column = 1
+          Control = Barra6
+          Row = 6
+        end
+        item
+          Column = 1
+          Control = Barra7
+          Row = 7
+        end
+        item
+          Column = 1
+          Control = Barra8
+          Row = 8
+        end
+        item
+          Column = 1
+          Control = Barra9
+          Row = 9
+        end
+        item
+          Column = 1
+          Control = Barra10
+          Row = 10
+        end
+        item
+          Column = 1
+          Control = Barra11
+          Row = 11
+        end
+        item
+          Column = 1
+          Control = Barra12
+          Row = 12
+        end
+        item
+          Column = 1
+          Control = Barra13
+          Row = 13
+        end
+        item
+          Column = 1
+          Control = Barra14
+          Row = 14
+        end
+        item
+          Column = 1
+          Control = Barra15
+          Row = 15
+        end
+        item
+          Column = 1
+          Control = Barra16
+          Row = 16
+        end
+        item
+          Column = 1
+          Control = Barra17
+          Row = 17
+        end
+        item
+          Column = 1
+          Control = Barra18
+          Row = 18
+        end
+        item
+          Column = 1
+          Control = Barra19
+          Row = 19
+        end
+        item
+          Column = 1
+          Control = Barra20
+          Row = 20
+        end
+        item
+          Column = 1
+          Control = Barra21
+          Row = 21
+        end
+        item
+          Column = 1
+          Control = Barra22
+          Row = 22
+        end
+        item
+          Column = 1
+          Control = Barra23
+          Row = 23
+        end
+        item
+          Column = 1
+          Control = Barra24
+          Row = 24
+        end
+        item
+          Column = 1
+          Control = Barra25
+          Row = 25
+        end
+        item
+          Column = 1
+          Control = Barra26
+          Row = 26
+        end
+        item
+          Column = 1
+          Control = Barra27
+          Row = 27
+        end
+        item
+          Column = 1
+          Control = Barra28
+          Row = 28
+        end
+        item
+          Column = 1
+          Control = Barra29
+          Row = 29
+        end
+        item
+          Column = 1
+          Control = Barra30
+          Row = 30
+        end
+        item
+          Column = 1
+          Control = Barra31
+          Row = 31
+        end
+        item
+          Column = 1
+          Control = Barra32
+          Row = 32
+        end
+        item
+          Column = 1
+          Control = Barra33
+          Row = 33
+        end
+        item
+          Column = 1
+          Control = Barra34
+          Row = 34
+        end
+        item
+          Column = 1
+          Control = Barra35
+          Row = 35
+        end
+        item
+          Column = 1
+          Control = Barra36
+          Row = 36
+        end>
+      RowCollection = <
+        item
+          Value = 2.708787168918123000
+        end
+        item
+          Value = 2.708095949585350000
+        end
+        item
+          Value = 2.707443436759650000
+        end
+        item
+          Value = 2.706829065938367000
+        end
+        item
+          Value = 2.706252226026966000
+        end
+        item
+          Value = 2.705712256361349000
+        end
+        item
+          Value = 2.705208443633503000
+        end
+        item
+          Value = 2.704740018720435000
+        end
+        item
+          Value = 2.704306153416199000
+        end
+        item
+          Value = 2.703905957066941000
+        end
+        item
+          Value = 2.703538473108776000
+        end
+        item
+          Value = 2.703202675508245000
+        end
+        item
+          Value = 2.702897465105093000
+        end
+        item
+          Value = 2.702621665856947000
+        end
+        item
+          Value = 2.702374020985251000
+        end
+        item
+          Value = 2.702153189021761000
+        end
+        item
+          Value = 2.701957739754537000
+        end
+        item
+          Value = 2.701786150072151000
+        end
+        item
+          Value = 2.701636799704430000
+        end
+        item
+          Value = 2.701507966857700000
+        end
+        item
+          Value = 2.701397823741943000
+        end
+        item
+          Value = 2.701304431986828000
+        end
+        item
+          Value = 2.701225737942818000
+        end
+        item
+          Value = 2.701159567862916000
+        end
+        item
+          Value = 2.701103622959732000
+        end
+        item
+          Value = 2.701055474331679000
+        end
+        item
+          Value = 2.701012557750936000
+        end
+        item
+          Value = 2.700972168304739000
+        end
+        item
+          Value = 2.700931454880178000
+        end
+        item
+          Value = 2.700887414481193000
+        end
+        item
+          Value = 2.700836886364819000
+        end
+        item
+          Value = 2.700776545981902000
+        end
+        item
+          Value = 2.700702898705459000
+        end
+        item
+          Value = 2.700612273327659000
+        end
+        item
+          Value = 2.700500815303841000
+        end
+        item
+          Value = 2.700364479719389000
+        end
+        item
+          Value = 2.700199023952159000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object Rct0: TRectangle
+        Align = Client
+        Fill.Color = claGreen
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.681626319885250000
+        Size.PlatformDefault = False
+        object Label1: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '0'
+        end
+      end
+      object Rct1: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.677880287170410000
+        Size.PlatformDefault = False
+        object Label2: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '1'
+        end
+      end
+      object Rct2: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.674345016479490000
+        Size.PlatformDefault = False
+        object Label3: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '2'
+        end
+      end
+      object Rct3: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.671012878417970000
+        Size.PlatformDefault = False
+        object Label5: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '3'
+        end
+      end
+      object Rct4: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.667884826660160000
+        Size.PlatformDefault = False
+        object Label14: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '4'
+        end
+      end
+      object Rct5: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.664962768554690000
+        Size.PlatformDefault = False
+        object Label12: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '5'
+        end
+      end
+      object Rct6: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.662231445312500000
+        Size.PlatformDefault = False
+        object Label11: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '6'
+        end
+      end
+      object Rct7: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.659690856933590000
+        Size.PlatformDefault = False
+        object Label10: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '7'
+        end
+      end
+      object Rct8: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.657333374023440000
+        Size.PlatformDefault = False
+        object Label9: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '8'
+        end
+      end
+      object Rct9: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.655166625976560000
+        Size.PlatformDefault = False
+        object Label8: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '9'
+        end
+      end
+      object Rct10: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.653182983398440000
+        Size.PlatformDefault = False
+        object Label19: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '10'
+        end
+      end
+      object Rct11: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.651351928710940000
+        Size.PlatformDefault = False
+        object Label20: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '11'
+        end
+      end
+      object Rct12: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.649703979492190000
+        Size.PlatformDefault = False
+        object Label18: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '12'
+        end
+      end
+      object Rct13: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.648208618164060000
+        Size.PlatformDefault = False
+        object Label17: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '13'
+        end
+      end
+      object Rct14: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.646865844726560000
+        Size.PlatformDefault = False
+        object Label16: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '14'
+        end
+      end
+      object Rct15: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.645675659179690000
+        Size.PlatformDefault = False
+        object Label21: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '15'
+        end
+      end
+      object Rct16: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.644607543945310000
+        Size.PlatformDefault = False
+        object Label13: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '16'
+        end
+      end
+      object Rct17: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.643676757812500000
+        Size.PlatformDefault = False
+        object Label15: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '17'
+        end
+      end
+      object Rct18: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.642883300781250000
+        Size.PlatformDefault = False
+        object Label6: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '18'
+        end
+      end
+      object Rct19: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.642181396484370000
+        Size.PlatformDefault = False
+        object Label4: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '19'
+        end
+      end
+      object Rct20: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.641571044921880000
+        Size.PlatformDefault = False
+        object Label36: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '20'
+        end
+      end
+      object Rct21: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.641082763671880000
+        Size.PlatformDefault = False
+        object Label35: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '21'
+        end
+      end
+      object Rct22: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.640655517578120000
+        Size.PlatformDefault = False
+        object Label34: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '22'
+        end
+      end
+      object Rct23: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.640289306640620000
+        Size.PlatformDefault = False
+        object Label33: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '23'
+        end
+      end
+      object Rct24: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.639984130859370000
+        Size.PlatformDefault = False
+        object Label32: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '24'
+        end
+      end
+      object Rct25: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.639709472656250000
+        Size.PlatformDefault = False
+        object Label31: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '25'
+        end
+      end
+      object Rct26: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.639495849609380000
+        Size.PlatformDefault = False
+        object Label30: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '26'
+        end
+      end
+      object Rct27: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.639282226562500000
+        Size.PlatformDefault = False
+        object Label29: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '27'
+        end
+      end
+      object Rct28: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.639038085937500000
+        Size.PlatformDefault = False
+        object Label27: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '28'
+        end
+      end
+      object Rct29: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.638824462890620000
+        Size.PlatformDefault = False
+        object Label26: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '29'
+        end
+      end
+      object Rct30: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.638549804687500000
+        Size.PlatformDefault = False
+        object Label37: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '30'
+        end
+      end
+      object Rct31: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.638214111328120000
+        Size.PlatformDefault = False
+        object Label28: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '31'
+        end
+      end
+      object Rct32: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.637817382812500000
+        Size.PlatformDefault = False
+        object Label25: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '32'
+        end
+      end
+      object Rct33: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.637329101562500000
+        Size.PlatformDefault = False
+        object Label24: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '33'
+        end
+      end
+      object Rct34: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.636688232421880000
+        Size.PlatformDefault = False
+        object Label23: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '34'
+        end
+      end
+      object Rct35: TRectangle
+        Align = Client
+        Fill.Color = claBlack
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.635986328125000000
+        Size.PlatformDefault = False
+        object Label22: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '35'
+        end
+      end
+      object Rct36: TRectangle
+        Align = Client
+        Fill.Color = claRed
+        Size.Width = 50.517379760742190000
+        Size.Height = 14.635070800781250000
+        Size.PlatformDefault = False
+        object Label7: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Family, Style]
+          Size.Width = 21.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '36'
+        end
+      end
+      object Barra0: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.681626319885250000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra1: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 14.681626319885250000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.677880287170410000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra2: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 29.359506607055670000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.674345016479490000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra3: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 44.033851623535160000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.671012878417970000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra4: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 58.704864501953130000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.667884826660160000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra5: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 73.372749328613290000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.664962768554690000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra6: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 88.037712097167970000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.662231445312500000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra7: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 102.699943542480500000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.659690856933590000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra8: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 117.359634399414100000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.657333374023440000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra9: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 132.016967773437500000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.655166625976560000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra10: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 146.672134399414000000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.653182983398440000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra11: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 161.325317382812500000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.651351928710940000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra12: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 175.976669311523400000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.649703979492190000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra13: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 190.626373291015600000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.648208618164060000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra14: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 205.274581909179700000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.646865844726560000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra15: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 219.921447753906200000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.645675659179690000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra16: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 234.567123413086000000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.644607543945310000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra17: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 249.211730957031300000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.643676757812500000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra18: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 263.855407714843700000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.642883300781250000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra19: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 278.498291015625000000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.642181396484370000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra20: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 293.140472412109400000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.641571044921880000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra21: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 307.782043457031200000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.641082763671880000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra22: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 322.423126220703100000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.640655517578120000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra23: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 337.063781738281300000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.640289306640620000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra24: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 351.704071044921900000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.639984130859370000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra25: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 366.344055175781200000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.639709472656250000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra26: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 380.983764648437500000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.639495849609380000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra27: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 395.623260498046800000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.639282226562500000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra28: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 410.262542724609300000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.639038085937500000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra29: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 424.901580810546900000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.638824462890620000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra30: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 439.540405273437500000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.638549804687500000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra31: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 454.178955078125000000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.638214111328120000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra32: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 468.817169189453100000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.637817382812500000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra33: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 483.454986572265600000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.637329101562500000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra34: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 498.092315673828100000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.636688232421880000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra35: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 512.729003906250000000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.635986328125000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Barra36: TRectangle
+        Align = Left
+        Fill.Color = xFF1878B3
+        Position.X = 50.517379760742190000
+        Position.Y = 527.364990234375000000
+        Size.Width = 1.000000000000000000
+        Size.Height = 14.635070800781250000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+    end
+  end
+  object Layout_Centro: TLayout
+    Align = Client
+    Size.Width = 348.000000000000000000
+    Size.Height = 548.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 118
+    object Layout_Top: TLayout
+      Align = Top
+      Size.Width = 348.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 0
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.HorzAlign = Center
+        Size.Width = 81.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object BtnConfirma: TCornerButton
+        Align = Left
+        Position.X = 81.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 56.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Okay'
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = BtnConfirmaClick
+      end
+      object CornerButton2: TCornerButton
+        Align = Left
+        Position.X = 137.000000000000000000
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 56.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Clear'
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = CornerButton2Click
+      end
+      object SpinBox1: TSpinBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 3
+        Cursor = crIBeam
+        Value = 4.000000000000000000
+        Position.X = 193.000000000000000000
+        Size.Width = 144.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object GridDireito: TGridPanelLayout
+      Align = Client
+      Size.Width = 348.000000000000000000
+      Size.Height = 507.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      ColumnCollection = <
+        item
+          Value = 50.000000000000000000
+        end
+        item
+          Value = 50.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = ChartDuzia
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = ChartColunas
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = ChartRua
+          Row = 1
+        end
+        item
+          Column = 1
+          Control = ChartMetade
+          Row = 1
+        end>
+      RowCollection = <
+        item
+          Value = 50.000000000000000000
+        end
+        item
+          Value = 50.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object ChartDuzia: TChart
+        Foot.Font.StyleExt = {00040000000200000004000000}
+        Legend.Alignment = laTop
+        Legend.CheckBoxesStyle = cbsRadio
+        Legend.FontSeriesColor = True
+        Legend.TextStyle = ltsPercent
+        Legend.Title.Font.StyleExt = {00070000000000000004000000}
+        Legend.VertSpacing = 1
+        Legend.Visible = False
+        SubFoot.Font.StyleExt = {00040000000200000004000000}
+        Title.AutoSize = False
+        Title.Color = claNull
+        Title.Font.Size = 12.734939575195310000
+        Title.Font.Color = xFF080808
+        Title.Font.Brush.Color = xFF080808
+        Title.Shadow.Transparency = 48
+        Title.Text.Strings = (
+          'Dozen')
+        Title.AdjustFrame = False
+        Zoom.Animated = True
+        Zoom.Brush.Kind = None
+        Zoom.Pen.Fill.Color = claSilver
+        Align = Client
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 3
+        Anchors = []
+        Size.Width = 174.000000000000000000
+        Size.Height = 253.500000000000000000
+        Size.PlatformDefault = False
+        ColorPaletteIndex = 13
+        object Series1: TBarSeries
+          ColorEachPoint = True
+          Title = 'Series1'
+          BarStyle = bsCilinder
+          Sides = 3
+          XValues.Name = 'X'
+          XValues.Order = loNone
+          YValues.Name = 'Bar'
+          YValues.Order = loNone
+        end
+      end
+      object ChartColunas: TChart
+        Foot.Font.StyleExt = {00040000000200000004000000}
+        Legend.Alignment = laTop
+        Legend.CheckBoxesStyle = cbsRadio
+        Legend.FontSeriesColor = True
+        Legend.TextStyle = ltsPercent
+        Legend.Title.Font.StyleExt = {00070000000000000004000000}
+        Legend.VertSpacing = 1
+        Legend.Visible = False
+        SubFoot.Font.StyleExt = {00040000000200000004000000}
+        Title.AutoSize = False
+        Title.Color = claNull
+        Title.Font.Size = 12.734939575195310000
+        Title.Font.Color = xFF080808
+        Title.Font.Brush.Color = xFF080808
+        Title.Shadow.Transparency = 48
+        Title.Text.Strings = (
+          'Columns')
+        Title.AdjustFrame = False
+        Zoom.Animated = True
+        Zoom.Brush.Kind = None
+        Zoom.Pen.Fill.Color = claSilver
+        Align = Client
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 0
+        Anchors = []
+        Size.Width = 174.000000000000000000
+        Size.Height = 253.500000000000000000
+        Size.PlatformDefault = False
+        ColorPaletteIndex = 13
+        object BarSeries1: TBarSeries
+          ColorEachPoint = True
+          Title = 'Series1'
+          BarStyle = bsCilinder
+          Sides = 3
+          XValues.Name = 'X'
+          XValues.Order = loNone
+          YValues.Name = 'Bar'
+          YValues.Order = loNone
+        end
+      end
+      object ChartRua: TChart
+        Foot.Font.StyleExt = {00040000000200000004000000}
+        Legend.Alignment = laTop
+        Legend.CheckBoxesStyle = cbsRadio
+        Legend.FontSeriesColor = True
+        Legend.TextStyle = ltsPercent
+        Legend.Title.Font.StyleExt = {00070000000000000004000000}
+        Legend.VertSpacing = 1
+        Legend.Visible = False
+        SubFoot.Font.StyleExt = {00040000000200000004000000}
+        Title.AutoSize = False
+        Title.Color = claNull
+        Title.Font.Size = 12.734939575195310000
+        Title.Font.Color = xFF080808
+        Title.Font.Brush.Color = xFF080808
+        Title.Shadow.Transparency = 48
+        Title.Text.Strings = (
+          'Street')
+        Title.AdjustFrame = False
+        Zoom.Animated = True
+        Zoom.Brush.Kind = None
+        Zoom.Pen.Fill.Color = claSilver
+        Align = Client
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 2
+        Anchors = []
+        Size.Width = 174.000000000000000000
+        Size.Height = 253.500000000000000000
+        Size.PlatformDefault = False
+        ColorPaletteIndex = 13
+        object BarSeries2: TBarSeries
+          ColorEachPoint = True
+          Title = 'Series1'
+          BarStyle = bsCilinder
+          Sides = 3
+          XValues.Name = 'X'
+          XValues.Order = loNone
+          YValues.Name = 'Bar'
+          YValues.Order = loNone
+        end
+      end
+      object ChartMetade: TChart
+        Foot.Font.StyleExt = {00040000000200000004000000}
+        Legend.Alignment = laTop
+        Legend.CheckBoxesStyle = cbsRadio
+        Legend.FontSeriesColor = True
+        Legend.TextStyle = ltsPercent
+        Legend.Title.Font.StyleExt = {00070000000000000004000000}
+        Legend.VertSpacing = 1
+        Legend.Visible = False
+        SubFoot.Font.StyleExt = {00040000000200000004000000}
+        Title.AutoSize = False
+        Title.Color = claNull
+        Title.Font.Size = 12.734939575195310000
+        Title.Font.Color = xFF080808
+        Title.Font.Brush.Color = xFF080808
+        Title.Shadow.Transparency = 48
+        Title.Text.Strings = (
+          '1/2')
+        Title.AdjustFrame = False
+        Zoom.Animated = True
+        Zoom.Brush.Kind = None
+        Zoom.Pen.Fill.Color = claSilver
+        Align = Client
+        ParentShowHint = False
+        ShowHint = False
+        TabOrder = 1
+        Anchors = []
+        Size.Width = 174.000000000000000000
+        Size.Height = 253.500000000000000000
+        Size.PlatformDefault = False
+        ColorPaletteIndex = 13
+        object BarSeries3: TBarSeries
+          ColorEachPoint = True
+          Title = 'Series1'
+          BarStyle = bsCilinder
+          Sides = 3
+          XValues.Name = 'X'
+          XValues.Order = loNone
+          YValues.Name = 'Bar'
+          YValues.Order = loNone
+        end
+      end
+    end
+  end
+end

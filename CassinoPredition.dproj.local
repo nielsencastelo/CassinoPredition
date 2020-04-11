@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/02/11 15:27:20.000.640,=C:\Users\Nielsen\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/11 15:28:42.000.986,D:\Projetos\C&amp;V\CassinoPredition\Principal.fmx=C:\Users\Nielsen\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/02/11 15:28:42.000.985,D:\Projetos\C&amp;V\CassinoPredition\Principal.pas=C:\Users\Nielsen\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/11 15:28:52.000.340,D:\Projetos\C&amp;V\CassinoPredition\CassinoPredition.dproj=C:\Users\Nielsen\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMacNielsen iOSSimulator="iPhone5"/>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
